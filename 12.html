@@ -1,0 +1,18 @@
+<script type="text/javascript">
+    var no = parseInt(prompt("enter the any number : "));
+    var i=1, c=0;
+
+
+    while(i<=no){
+        if(no%i==0){
+            c++;
+        }
+        i++;
+    }
+
+    if(c==2){
+        document.write("It is a Prime number.");
+    }else{
+        document.write("It is not a Prime number.");
+    }
+</script>
